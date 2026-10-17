@@ -131,10 +131,10 @@ conda install pytorch pytorch-cuda=12.1 -c pytorch -c nvidia
 
 | Database | Content | Access |
 |----------|---------|--------|
-| Materials Project | ~150,000 materials | API key (free) |
-| AFLOW | ~3.5M materials | Open |
-| OQMD | ~1M materials | Open |
-| JARVIS-DFT | ~75,000 materials | Open |
+| [Materials Project](https://materialsproject.org) | ~163,000 materials (database version 2026.04.13) | API key (free) |
+| [AFLOW](https://aflow.org) | DFT-computed compounds and prototypes | Open |
+| [OQMD](https://oqmd.org) | DFT formation energies and stabilities | Open |
+| [JARVIS-DFT](https://jarvis.nist.gov) | ~77,000 materials | Open |
 
 **Note**: You'll need a free Materials Project API key. Get one at:
 https://materialsproject.org/api
