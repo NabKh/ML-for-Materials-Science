@@ -109,7 +109,7 @@ conda install pytorch pytorch-cuda=12.1 -c pytorch -c nvidia
 
 ## Interactive Features
 
-- **Learning objectives and time estimate** at the top of every notebook.
+- **Learning objectives** (a project goal in notebook 07) and a **time estimate** at the top of every notebook.
 - **Interactive widgets**: a click-to-answer "supervised or unsupervised?" quiz in notebook 01 (ipywidgets).
 - **Self-check quizzes** in notebooks 01, 06 and 07.
 - **Worked solutions** for the exercises of notebooks 01–06 in `Tutorial-07-ML-Discovery/solutions/`.
