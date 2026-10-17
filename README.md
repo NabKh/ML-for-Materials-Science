@@ -10,7 +10,7 @@ A comprehensive, interactive learning path for applying machine learning to mate
 │                    Complete Learning Path                                   │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
-│  Tutorial 07          Tutorial 08              Tutorial 09                  │
+│  Tutorial 07          Tutorial 08 (planned)    Tutorial 09 (planned)        │
 │  ┌─────────────┐     ┌─────────────────┐      ┌──────────────────┐          │
 │  │ ML          │     │ Neural Network  │      │ Advanced         │          │
 │  │ Discovery   │ ──► │ Potentials      │ ──►  │ Features         │          │
@@ -18,7 +18,7 @@ A comprehensive, interactive learning path for applying machine learning to mate
 │  │ • ML Basics │     │ • GNN Basics    │      │ • SOAP/MBTR      │          │
 │  │ • matminer  │     │ • M3GNet/CHGNet │      │ • Active Learn   │          │
 │  │ • sklearn   │     │ • MD with NNPs  │      │ • Bayesian Opt   │          │
-│  │ • SHAP      │     │ • Fine-tuning   │      │ • Genertic Models│          │
+│  │ • SHAP      │     │ • Fine-tuning   │      │ • Generative ML  │          │
 │  └─────────────┘     └─────────────────┘      └──────────────────┘          │
 │                                                                             │
 │  Difficulty:  🟢 Beginner  →  🟡 Intermediate  →  🔴 Advanced                │
@@ -32,15 +32,13 @@ Before starting, you should be comfortable with:
 - **Python basics**: variables, functions, loops, classes
 - **NumPy & Pandas**: array operations, DataFrames
 - **Basic chemistry/materials science**: what are crystals, compositions, properties
-- **Optional but helpful**: Previous tutorials (01-06) in this series
+- **Optional but helpful**: the earlier DFT tutorials of this series, e.g. [Tutorial-04-VASP-Catalysis](https://github.com/NabKh/Tutorial-04-VASP-Catalysis)
 
 ## Quick Start
 
 ### Option 1: Cloud (No Installation Required)
 
-Each notebook includes buttons to launch in:
-- **Google Colab**: Click "Open in Colab" badge
-- **Binder**: Click "Launch Binder" badge
+Every notebook starts with an **Open in Colab** badge. Notebooks 01–03 also have a **Launch Binder** badge.
 
 ### Option 2: Local Installation
 
@@ -71,7 +69,7 @@ conda install pytorch pytorch-cuda=12.1 -c pytorch -c nvidia
 ## Tutorial Structure
 
 ### Tutorial 07: ML for Materials Discovery
-*Foundation course - Start here!*
+*Foundation course - Start here! Available now in [`Tutorial-07-ML-Discovery/`](Tutorial-07-ML-Discovery), with worked solutions in `solutions/` and a sample band-gap dataset in `data/sample_datasets/`.*
 
 | # | Notebook | Difficulty | Key Topics |
 |---|----------|------------|------------|
@@ -83,8 +81,8 @@ conda install pytorch pytorch-cuda=12.1 -c pytorch -c nvidia
 | 6 | Explainable AI | 🟡🔴 | SHAP values, feature importance |
 | 7 | Project: Band Gap | 🔴 | End-to-end ML pipeline |
 
-### Tutorial 08: Neural Network Potentials
-*Deep learning for atomistic simulations*
+### Tutorial 08: Neural Network Potentials (planned)
+*Deep learning for atomistic simulations. Not released yet; the outline below is the plan. Watch the repository to be notified.*
 
 | # | Notebook | Difficulty | Key Topics |
 |---|----------|------------|------------|
@@ -96,8 +94,8 @@ conda install pytorch pytorch-cuda=12.1 -c pytorch -c nvidia
 | 6 | Fine-tuning | 🔴 | Transfer learning, avoiding forgetting |
 | 7 | Project: Phonons | 🔴 | Phonon calculation with NNPs |
 
-### Tutorial 09: Advanced Features & Discovery
-*Cutting-edge ML for materials*
+### Tutorial 09: Advanced Features & Discovery (planned)
+*Cutting-edge ML for materials. Not released yet; the outline below is the plan.*
 
 | # | Notebook | Difficulty | Key Topics |
 |---|----------|------------|------------|
@@ -111,25 +109,11 @@ conda install pytorch pytorch-cuda=12.1 -c pytorch -c nvidia
 
 ## Interactive Features
 
-### Jupyter Widgets
-Every notebook includes interactive elements:
-- **Sliders** to explore hyperparameters
-- **Dropdowns** to select models/features
-- **Checkboxes** for feature selection
-- **Interactive plots** with Plotly
-
-### Self-Check Quizzes
-Test your understanding with embedded quizzes:
-```python
-# Example quiz widget
-quiz.check_answer("What prevents overfitting?", your_answer)
-```
-
-### Visual Learning
-- Animated diagrams explaining concepts
-- Side-by-side model comparisons
-- Interactive feature importance plots
-- 3D materials space exploration
+- **Learning objectives and time estimate** at the top of every notebook.
+- **Interactive widgets**: a click-to-answer "supervised or unsupervised?" quiz in notebook 01 (ipywidgets).
+- **Self-check quizzes** in notebooks 01, 06 and 07.
+- **Worked solutions** for the exercises of notebooks 01–06 in `Tutorial-07-ML-Discovery/solutions/`.
+- **End-to-end project** in notebook 07: a band-gap model from data to evaluation.
 
 ## Key Libraries Used
 
@@ -170,8 +154,7 @@ https://sustai-nabil.com/teaching
 
 ## License
 
-This work is licensed under CC BY-NC-SA 4.0. You are free to share and adapt
-for non-commercial purposes with attribution.
+MIT, see [LICENSE](LICENSE).
 
 ## Acknowledgments
 
